@@ -1,0 +1,8 @@
+https://api.mapbox.com/styles/v1/skinnysamy/cjlyqv7725ahp2rni4vm28hdl.html?fresh=true&title=true&access_token=pk.eyJ1Ijoic2tpbm55c2FteSIsImEiOiJjamxzMmxrMHMwYjFoM3FwcHJ4bmc4NGkwIn0.MRR1wSOf6BfeuYsocQLA4g#2/70.160477/30.035000/0
+
+
+
+
+
+
+if it displays wrong places just zoom out and navigate over pakistan
