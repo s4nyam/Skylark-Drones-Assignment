@@ -12,7 +12,7 @@ The Five parts are as follows:
 
 
 
-# Pythonic NaiveWay using Jupyter:
+# First :Pythonic NaiveWay using Jupyter:
 
 Links reference:\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
@@ -90,13 +90,13 @@ URL = https://matplotlib.org/basemap/users/installing.html
 
 
 
-# Using Basic google maps and CSV data to plot on google maps editor online :
+# Second: Using Basic google maps and CSV data to plot on google maps editor online :
 
 Creating own google maps and using iframe directly to the webpage tio embed the map. It&#39;s that easy.
 
 
 
-  **Mapbox simple:**
+#  Third: Mapbox simple:
 
 
 
@@ -112,7 +112,7 @@ The Description will give you raw JSON. that can be stringified and formatted in
 
 
 
-#  Folium+leaflet+OSM+advanced Python (Pythonic way) :
+# Fourth:Folium+leaflet+OSM+advanced Python (Pythonic way) :
 
 Run in command line  : python app.py and you ll get an output file called &quot;Mapi.html&quot;
 
@@ -136,7 +136,7 @@ Numpy + Scipy + Matplotlib + plotly + pandas + jupyter + seaborn
 
                     Anaconda
 
-#D3 + GEOJSON + TOPOJSON :
+# Fifth: D3 + GEOJSON + TOPOJSON :
 
 This is the tricky way to do. There are some prerequisites for the same:
 
