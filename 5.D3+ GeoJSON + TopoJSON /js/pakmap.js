@@ -97,26 +97,41 @@ var places = [
 
 
 //https://stackoverflow.com/questions/14168023/d3-cant-call-svg-selectalltext-twice-on-a-same-svg-object
-d3.json("newplots.json", function(error, fake) {
-	var facilities = fake.facilities;
+d3.json("db.json", function(error, fake) {
+	var facilities = fake;
 
-	svg.selectAll(".facility")
-			.data(facilities)
-		.enter().append("circle")
-			.attr("class", function(d) { return "facility " + d.facility_name.replace(/[ .]/g, ""); })
-			.attr("cx", function(d) { return projection([d.longitude, d.latitude])[0]; })
-			.attr("cy", function(d) { return projection([d.longitude, d.latitude])[1]; })
-			.attr("r", 20);
+	svg.selectAll(".facility").data(facilities)
+		.enter().append("circle").transition().duration(1000)
+		.attr("r", 10)
+		.style("fill-opacity", 0.4)
+    .each("end", repeat);
 
-	svg.selectAll(".facility").on("click", function(fac) {
-		svg.selectAll(".facility").transition()
+		function repeat() {
+			d3.select(this).transition()
+			.style("fill-opacity", 0.4)
+			.attr("class", function(d) { return "facility " + d.City.replace(/[ .]/g, ""); })
+			.attr("cx", function(d) { return projection([d.Longitude, d.Latitude])[0]; })
+			.attr("cy", function(d) { return projection([d.Longitude, d.Latitude])[1]; })
+			.duration(1000)
+			.attr("stroke-width", 2)
 			.attr("r", 20)
-			.style("fill-opacity", 0);
-		d3.select(this).transition()
-			.attr("r", 40)
-			.style("fill-opacity", .4);
+			.transition()
+			.style("fill-opacity", 0.4)
+			.duration(1000)
+			.attr('stroke-width', 0.2)
+			.attr("r", 10)
+			.each("end", repeat);
+	};
 
-		facName.text(fac.properties.name);
-		facCov.text("Coverage: " + fac.properties.coverage + "%");
-	});
+	// svg.selectAll(".facility").on("click", function(fac) {
+	// 	svg.selectAll(".facility").transition()
+	// 		.attr("r", 20)
+	// 		.style("fill-opacity", 0);
+	// 	d3.select(this).transition()
+	// 		.attr("r", 40)
+	// 		.style("fill-opacity", .4);
+
+	// 	facName.text(fac.properties.name);
+	// 	facCov.text("Coverage: " + fac.properties.coverage + "%");
+	// });
 });
