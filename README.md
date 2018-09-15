@@ -139,6 +139,7 @@ Numpy + Scipy + Matplotlib + plotly + pandas + jupyter + seaborn
 
 # Fifth: D3 + GEOJSON + TOPOJSON :
 
+![](outputd3.gif)
 This is the tricky way to do. There are some prerequisites for the same:
 
 1. D3.JS (d3js.org)
