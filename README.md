@@ -1,4 +1,5 @@
 # Skylark-Drones-Assignment
+# please use firefox as localhost, Chrome is in accurate with plot-points Thanks
 This is the part of Skylark-Drones-Assignment-for-Recruitment-process I got in second week of september. 
 
 
