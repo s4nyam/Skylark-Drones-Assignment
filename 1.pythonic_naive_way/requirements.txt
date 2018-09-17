@@ -1,0 +1,6 @@
+matplotlib
+csv
+numpy
+pandas
+pillow
+scipy
