@@ -1,10 +1,9 @@
-# Skylark-Drones-Assignment
+# Drones-Assignment
 # please use firefox for localhost, Chrome is in accurate with plot-points. Thanks.
-This is the part of Skylark-Drones-Assignment-for-Recruitment-process I got in second week of september. 
 
 
 
-URL: https://skylarkdronessanyam.herokuapp.com/
+URL: https://samy280497.herokuapp.com/
 
 >>>>>>> c44d8efde26d23fe12429cebe7c609cfaee09a10
 
