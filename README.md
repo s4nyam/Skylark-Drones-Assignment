@@ -11,7 +11,7 @@ Hello,
 
 
 
-This repository is a part of Skylark-drones-assignment. It has 5 different approaches to visualize geo-spatial data of &quot;_Pakistan Drone Attacks (2004-17)_&quot;.
+It has 5 different approaches to visualize geo-spatial data of &quot;_Pakistan Drone Attacks (2004-17)_&quot;.
 
 The Five parts are as follows:
 
